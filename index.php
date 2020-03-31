@@ -30,7 +30,7 @@
 				padding: 0px 10px;
 				height: 100%;
 				width: 200px;
-				position: absolute;
+				position: fixed;
 				z-index: 0;
 				top: 0;
 				left: 0;
@@ -56,7 +56,8 @@
 			}*/
 
 			.sidebar a:hover {
-				text-decoration: underline;
+				color: black;
+  				background-color: white;
 			}
 
 		</style>
