@@ -90,6 +90,29 @@
 				<a class="title">staff</a>
 				<a class="title">store</a>
 			</div>
-		</nav>
+        </nav>
+        <form method="post" action="connection.php">
+            <table align="center" border="1px" style="width: 600px; line-height: 40px;">
+                <tr>
+                    <th>actor_id</th>
+                    <th>first_name</th>
+                    <th>last_name</th>
+                    <th>last_update</th>
+                </tr>
+                <?php
+                    while($rows=mysql_fetch_assoc($result))
+                    {
+                ?>
+                <tr>
+                    <td><?php echo $rows['actor_id']; ?></td>
+                    <td><?php echo $rows['first_name']; ?></td>
+                    <td><?php echo $rows['last_name']; ?></td>
+                    <td><?php echo $rows['last_update']; ?></td>
+                </tr>
+                <?php
+                    }
+                ?> 
+            </table>
+        </form>
 	</body>
 </html>
