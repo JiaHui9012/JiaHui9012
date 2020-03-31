@@ -66,7 +66,7 @@
 		<nav>
 			<div class="sidebar">
 				<a href="" class="title">Home</a>
-				<a href="actor.html" class="title">actor</a>
+				<a href="actor.php" class="title">actor</a>
 				<a class="title">address</a>
 				<a class="title">category</a>
 				<a class="title">city</a>
