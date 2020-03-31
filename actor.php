@@ -23,7 +23,11 @@
             h2 {
                 margin-left: 270px;
                 font-size: 30px;
-            }
+			}
+			
+			table{
+				margin-left: 270px;
+			}
 
             /*p{
 				margin-left: 270px;
@@ -36,7 +40,7 @@
 				padding: 0px 10px;
 				height: 100%;
 				width: 200px;
-				position: absolute;
+				position: fixed;
 				z-index: 0;
 				top: 0;
 				left: 0;
@@ -93,7 +97,7 @@
         </nav>
         <!-- method="post" action="connection.php" -->
         <form>
-            <table align="center" border="1px" style="width: 600px; line-height: 40px;">
+            <table align="left" border="1px" style="width: 600px; line-height: 40px;">
                 <tr>
                     <th>actor_id</th>
                     <th>first_name</th>
