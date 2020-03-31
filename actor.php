@@ -72,7 +72,7 @@
         <h2>Actor</h2>
 		<nav>
 			<div class="sidebar">
-				<a href="index.html" class="title">Home</a>
+				<a href="index.php" class="title">Home</a>
 				<a href="" class="title">actor</a>
 				<a class="title">address</a>
 				<a class="title">category</a>
