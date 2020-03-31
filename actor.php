@@ -66,7 +66,8 @@
 			}*/
 
 			.sidebar a:hover {
-				text-decoration: underline;
+				color: black;
+  				background-color: white;
 			}
 
 		</style>
